@@ -1,0 +1,12 @@
+FROM kong/kong-gateway:2.4.1-alpine
+ENV MY_NAME="John Doe"
+EXPOSE 8000/tcp
+EXPOSE 8001/tcp
+EXPOSE 8002/tcp
+EXPOSE 8003/tcp
+EXPOSE 8004/tcp
+EXPOSE 8443/tcp
+EXPOSE 8444/tcp
+EXPOSE 8445/tcp
+EXPOSE 8446/tcp
+EXPOSE 8447/tcp
