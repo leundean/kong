@@ -1,4 +1,4 @@
-FROM kong/kong-gateway:2.4.1-alpine
+FROM kong/kong-gateway:2.4-alpine
 ENV MY_NAME="John Doe"
 EXPOSE 8000/tcp
 EXPOSE 8001/tcp
